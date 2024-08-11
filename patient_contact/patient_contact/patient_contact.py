@@ -5,6 +5,10 @@ import argparse
 import tkinter as tk
 from tkinter import ttk
 import os
+import subprocess  # Import subprocess module
+
+# Activate mamba environment
+# subprocess.run(["mamba", "activate", "mne"], shell=True)
 
 patients_to_contact = '/Users/danielgarcia-barnett/Desktop/patient_data/patient_data.csv'
 contacted_patients_fpath = '/Users/danielgarcia-barnett/Desktop/patient_data/contacted_patients.csv'
